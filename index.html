@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Чек-листы по охране труда</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Чек-листы по охране труда</h1>
+
+  <div id="templates-container">
+    <h2>Шаблоны чек-листов</h2>
+    <ul id="templates-list">
+      <!-- Здесь будут отображаться шаблоны чек-листов -->
+    </ul>
+    <button type="button" id="add-template-btn">Добавить шаблон</button>
+  </div>
+
+  <div id="checklist-container">
+    <h2>Заполнение чек-листа</h2>
+    <form id="checklist-form">
+      <label for="template">Шаблон:</label>
+      <select id="template">
+        <!-- Здесь будут отображаться шаблоны чек-листов -->
+      </select>
+      <br>
+      <ul id="items">
+        <!-- Здесь будут отображаться пункты чек-листа -->
+      </ul>
+      <button type="submit">Создать чек-лист</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
